@@ -1,1 +1,1 @@
-The code I have written while learning the JavaScript framework React
+The code I have written while learning the JavaScript library React
