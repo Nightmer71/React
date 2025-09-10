@@ -1,18 +1,13 @@
-/*
-How to style React components with CSS:
-  1. External
-  2. Modules
-  3. Internal
 
-  Not including external frameworks or preprocessors
-*/
-
-import Button from "./Button.jsx";
+import Student from "./Students.jsx";
 
 function App() {
   return(
     <>
-      <Button/>
+      <Student name = "SpongeBob" age = {30} isStudent = {true}/>
+      <Student name = "Patrick" age = {34} isStudent = {false}/>
+      <Student name = "Squidward" age = {40} isStudent = {false} />
+      <Student name = "Sandy" age = {27} isStudent = {true} />
     </>
     
   );
