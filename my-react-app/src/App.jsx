@@ -1,9 +1,18 @@
-import Card from "./Card.jsx";
+/*
+How to style React components with CSS:
+  1. External
+  2. Modules
+  3. Internal
+
+  Not including external frameworks or preprocessors
+*/
+
+import Button from "./Button.jsx";
 
 function App() {
   return(
     <>
-      <Card/>
+      <Button/>
     </>
     
   );
